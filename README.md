@@ -7,7 +7,8 @@ To develop a convolutional deep neural network (CNN) for image classification an
 Image classification is a fundamental task in computer vision where an input image is assigned to one of several predefined classes. The objective of this experiment is to build and train a Convolutional Neural Network (CNN) using a labeled image dataset and evaluate its performance using accuracy, confusion matrix, and classification report.
 
 ## Neural Network Model
-![alt text](Output-img/model.png)
+<img width="1918" height="822" alt="model" src="https://github.com/user-attachments/assets/e4a80149-1907-4cbe-bf4f-d64a205d4f96" />
+
 
 ## DESIGN STEPS
 ### STEP 1: 
@@ -37,9 +38,9 @@ Predict on a Single Image
 
 ## PROGRAM
 
-### Name: Krishna Prasad S
+### Name: Pradeep Kumar G
 
-### Register Number: 212223230108
+### Register Number: 212223230150
 
 ```python
 class CNNClassifier(nn.Module):
@@ -73,8 +74,8 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # Train the Model
 def train_model(model, train_loader, num_epochs=3):
-  print('Name: Krishna Prasad S')
-  print('Register Number: 212223230108')
+  print('Name: Pradeep Kumar G')
+  print('Register Number: 212223230150')
   for epoch in range(num_epochs):
       model.train()
       running_loss = 0.0
@@ -92,16 +93,20 @@ def train_model(model, train_loader, num_epochs=3):
 ### OUTPUT
 
 ## Training Loss per Epoch
-![alt text](Output-img/loss.png)
+<img width="293" height="82" alt="image" src="https://github.com/user-attachments/assets/4c087e49-3112-4dc7-93f8-c82017d71eeb" />
+
 
 ## Confusion Matrix
-![alt text](Output-img/conf-mat.png)
+<img width="904" height="658" alt="image" src="https://github.com/user-attachments/assets/9825f4dc-d871-4548-a641-4195d1102563" />
+
 
 ## Classification Report
-![alt text](Output-img/class-report.png)
+<img width="656" height="411" alt="image" src="https://github.com/user-attachments/assets/8ea83bf2-24ca-4abd-8aeb-eb8c2cf5f756" />
+
 
 ### New Sample Data Prediction
-![alt text](Output-img/predict.png)
+<img width="508" height="615" alt="image" src="https://github.com/user-attachments/assets/19789370-812b-4d52-9c32-0d47a80af1f1" />
+
 
 ## RESULT
 Thus, the program to develop a convolutional deep neural network for Image classification and to verify the response for new images has been completed successfully.
